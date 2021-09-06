@@ -2,4 +2,6 @@
     pageEncoding="UTF-8"%>
 <%@ include file="layout/header.jsp"%>
 
+<h1>${sessionScope.principal.username }님 환영합니다</h1>
+
 <%@ include file="layout/footer.jsp"%>
